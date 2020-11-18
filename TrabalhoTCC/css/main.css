@@ -163,7 +163,7 @@ h6 {
    ========================================================================== */
 .bg-blue {
   background: #2c6ed5;
-}
+  }
 
 .bg-red {
   background: #fa4251;
@@ -175,14 +175,20 @@ h6 {
   background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
   background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
   background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+  opacity: 50%;
 }
 
 .bg-gra-02 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-  background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  background: -webkit-gradient(linear, left bottom, right top, from(red), to(#6c4079));
+  background: -webkit-linear-gradient(bottom left, red 0%, #6c4079 100%);
+  background: -moz-linear-gradient(bottom left, red 0%, #6c4079 100%);
+  background: -o-linear-gradient(bottom left, red 0%, #6c4079 100%);
+  background: linear-gradient(to top right, red 0%, #6c4079 100%);
+  background-image: url("https://static.wixstatic.com/media/51ebb9_aae201d0d40f42f2ace0d4e92e499a3d~mv2.jpg/v1/fit/w_2500,h_1330,al_c/51ebb9_aae201d0d40f42f2ace0d4e92e499a3d~mv2.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 100%;
 }
 
 /* ==========================================================================
@@ -279,26 +285,26 @@ h6 {
 }
 
 .btn--green {
-  background: #57b846;
+  background:#a2231d;
 }
 
 .btn--green:hover {
-  background: #4dae3c;
+  background: #a2231d;
 }
 
 .btn--blue {
-  background: #4272d7;
+  background: #a2231d;
 }
 
 .btn--blue:hover {
-  background: #3868cd;
+  background: #ffff5f; 
 }
 
 /* ==========================================================================
    #DATE PICKER
    ========================================================================== */
 td.active {
-  background-color: #2c6ed5;
+  background-color: #a2231d;
 }
 
 input[type="date" i] {
@@ -452,7 +458,7 @@ input {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background: #57b846;
+  background: #a2231d;
 }
 
 .checkmark {
@@ -502,6 +508,7 @@ input {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   cursor: pointer;
+  
 }
 
 /* ==========================================================================
@@ -509,6 +516,7 @@ input {
    ========================================================================== */
 .select--no-search .select2-search {
   display: none !important;
+  
 }
 
 .rs-select2 .select2-container {
@@ -521,13 +529,16 @@ input {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-}
+  
+  }
 
 .rs-select2 .select2-container .select2-selection--single {
   outline: none;
   border: none;
   height: 50px;
   background: transparent;
+  
+  
 }
 
 .rs-select2 .select2-container .select2-selection--single .select2-selection__rendered {
@@ -538,6 +549,8 @@ input {
   font-family: inherit;
   padding-left: 22px;
   padding-right: 50px;
+  
+  
 }
 
 .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow {
@@ -558,10 +571,13 @@ input {
   -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  
+  
 }
 
 .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow b {
   display: none;
+  
 }
 
 .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow:after {
@@ -573,6 +589,7 @@ input {
   -o-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  
 }
 
 .rs-select2 .select2-container.select2-container--open .select2-selection--single .select2-selection__arrow::after {
@@ -581,6 +598,7 @@ input {
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg);
+  
 }
 
 .select2-container--open .select2-dropdown--below {
@@ -594,10 +612,12 @@ input {
   border: 1px solid #e0e0e0;
   margin-top: 5px;
   overflow: hidden;
+  
 }
 
 .select2-container--default .select2-results__option {
   padding-left: 22px;
+  
 }
 
 /* ==========================================================================
@@ -608,6 +628,7 @@ input {
   color: #525252;
   font-weight: 400;
   margin-bottom: 40px;
+  
 }
 
 /* ==========================================================================
@@ -618,10 +639,11 @@ input {
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #fff;
+  
 }
 
 .card-4 {
-  background: #fff;
+   background: #fff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
